@@ -1,6 +1,23 @@
 
+/*   
+
+*=== Flex css
+*/
+
+
 
 /*   This is visualized code */
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    flex: 0 0 250px;
+}
 
 *{
     box-sizing: border-box;
@@ -8,6 +25,10 @@
 
 body{
     margin: 0;
+}
+
+.cards {
+    min-height: 100vh;
 }
 
 .card {
